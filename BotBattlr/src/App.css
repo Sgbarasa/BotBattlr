@@ -80,6 +80,7 @@ select:hover {
   flex-wrap: wrap;
   justify-content: center;
   gap: 1rem;
+  margin-bottom: 5rem;
 }
 
 /* ===== Bot Card ===== */
