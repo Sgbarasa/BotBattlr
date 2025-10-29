@@ -130,7 +130,6 @@ select:hover {
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
-  
 }
 
 /* Stats line */
@@ -138,6 +137,37 @@ select:hover {
   font-size: 0.85rem;
   color: #ccc;
   margin-top: auto;
+}
+
+/* Accent classes */
+.bot-card.assault {
+  box-shadow: 0 0 12.5px rgba(220, 20, 60, 0.3);
+  border-color: rgba(220, 20, 60, 0.5);
+}
+
+.bot-card.defender {
+  box-shadow: 0 0 12.5px rgba(30, 144, 255, 0.3);
+  border-color: rgba(30, 144, 255, 0.5);
+}
+
+.bot-card.support {
+  box-shadow: 0 0 12.5px rgba(0, 206, 209, 0.3);
+  border-color: rgba(0, 206, 209, 0.5);
+}
+
+.bot-card.medic {
+  box-shadow: 0 0 12.5px rgba(46, 204, 113, 0.3);
+  border-color: rgba(46, 204, 113, 0.5);
+}
+
+.bot-card.witch {
+  box-shadow: 0 0 12.5px rgba(138, 43, 226, 0.3);
+  border-color: rgba(138, 43, 226, 0.5);
+}
+
+.bot-card.captain {
+  box-shadow: 0 0 12.5px rgba(218, 165, 32, 0.3);
+  border-color: rgba(218, 165, 32, 0.5);
 }
 
 /* ===== Buttons ===== */

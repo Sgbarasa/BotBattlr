@@ -1,7 +1,7 @@
 function BotCard({ bot, onClick, onDelete, inArmy, onReleaseClick }) {
   
 return (
-    <div className="bot-card" onClick={onClick}>
+    <div className={`bot-card ${bot.bot_class.toLowerCase()}`} onClick={onClick}>
       
       {inArmy && (
         <button

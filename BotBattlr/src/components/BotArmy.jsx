@@ -12,7 +12,6 @@ function BotArmy({ army, onRelease, onDelete }) {
             <BotCard
               key={bot.id}
               bot={bot}
-              onClick={() => onRelease(bot.id)}
               onDelete={() => onDelete(bot.id)}
               inArmy={true} // 👈 tells the card it's enlisted
               onReleaseClick={() => onRelease(bot.id)} // for top-right X

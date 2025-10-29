@@ -961,18 +961,6 @@
       "updated_at": "2018-10-02T19:55:12.314Z"
     },
     {
-      "id": "185",
-      "name": "hin-85",
-      "health": 63,
-      "damage": 80,
-      "armor": 32,
-      "bot_class": "Assault",
-      "catchphrase": "00000010101001101010001101011010010101111100",
-      "avatar_url": "https://robohash.org/culpavoluptatemdeleniti.png?size=300x300&set=set1",
-      "created_at": "2018-10-02T19:55:12.339Z",
-      "updated_at": "2018-10-02T19:55:12.339Z"
-    },
-    {
       "id": "186",
       "name": "G-17",
       "health": 50,
