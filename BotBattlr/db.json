@@ -1,0 +1,76 @@
+{
+  "bots": [
+    {
+      "id": 101,
+      "name": "wHz-93",
+      "health": 94,
+      "damage": 20,
+      "armor": 63,
+      "bot_class": "Support",
+      "catchphrase": "1010010101001101100011000111101",
+      "avatar_url": "https://robohash.org/nostrumrepellendustenetur.png?size=300x300&set=set1",
+      "created_at": "2018-10-02T19:55:10.800Z",
+      "updated_at": "2018-10-02T19:55:10.800Z"
+    },
+    {
+      "id": 102,
+      "name": "RyM-66",
+      "health": 86,
+      "damage": 36,
+      "armor": 77,
+      "bot_class": "Medic",
+      "catchphrase": "0110011100000100011110100110011000011001",
+      "avatar_url": "https://robohash.org/quidemconsequaturaut.png?size=300x300&set=set1",
+      "created_at": "2018-10-02T19:55:10.827Z",
+      "updated_at": "2018-10-02T19:55:10.827Z"
+    },
+    {
+      "id": 103,
+      "name": "TrX-23",
+      "health": 120,
+      "damage": 50,
+      "armor": 45,
+      "bot_class": "Assault",
+      "catchphrase": "We strike fast and vanish faster!",
+      "avatar_url": "https://robohash.org/etexpeditaducimus.png?size=300x300&set=set1",
+      "created_at": "2018-10-02T19:55:10.900Z",
+      "updated_at": "2018-10-02T19:55:10.900Z"
+    },
+    {
+      "id": 104,
+      "name": "Blitz-07",
+      "health": 70,
+      "damage": 15,
+      "armor": 80,
+      "bot_class": "Defender",
+      "catchphrase": "Shields up, peace out!",
+      "avatar_url": "https://robohash.org/doloremquealiquamest.png?size=300x300&set=set1",
+      "created_at": "2018-10-02T19:55:10.950Z",
+      "updated_at": "2018-10-02T19:55:10.950Z"
+    },
+    {
+      "id": 105,
+      "name": "CaP-09",
+      "health": 100,
+      "damage": 25,
+      "armor": 90,
+      "bot_class": "Captain",
+      "catchphrase": "Lead or be left behind.",
+      "avatar_url": "https://robohash.org/veritatisofficiaamet.png?size=300x300&set=set1",
+      "created_at": "2018-10-02T19:55:11.000Z",
+      "updated_at": "2018-10-02T19:55:11.000Z"
+    },
+    {
+      "id": 106,
+      "name": "Hexa-88",
+      "health": 65,
+      "damage": 40,
+      "armor": 30,
+      "bot_class": "Witch",
+      "catchphrase": "Magic meets metal.",
+      "avatar_url": "https://robohash.org/sapienteadipiscivoluptas.png?size=300x300&set=set1",
+      "created_at": "2018-10-02T19:55:11.100Z",
+      "updated_at": "2018-10-02T19:55:11.100Z"
+    }
+  ]
+}
