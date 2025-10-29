@@ -1,26 +1,41 @@
-import React from "react";
-
-function BotCard({ bot, handleClick, handleDischarge, showDischargeButton }) {
-  const { name, avatar_url, health, damage, armor, bot_class, catchphrase } = bot;
-
-  return (
-    <div className="bot-card" onClick={handleClick}>
-      <img src={avatar_url} alt={name} />
-      <h3>{name}</h3>
-      <p><strong>Class:</strong> {bot_class}</p>
-      <p><strong>HP:</strong> {health} | <strong>Damage:</strong> {damage} | <strong>Armor:</strong> {armor}</p>
-      <p>{catchphrase}</p>
-      {showDischargeButton && (
+function BotCard({ bot, onClick, onDelete, inArmy, onReleaseClick }) {
+  
+return (
+    <div className="bot-card" onClick={onClick}>
+      
+      {inArmy && (
         <button
-          className="discharge-btn"
+          className="release-btn"
           onClick={(e) => {
             e.stopPropagation();
-            handleDischarge();
+            onReleaseClick(bot.id);
           }}
         >
-          ❌ Discharge
+          ✖
         </button>
       )}
+
+    <img src={bot.avatar_url} alt={bot.name} />
+    
+    <div className="bot-info">
+        <h3>{bot.name}</h3>
+        <p className="catchphrase">{bot.catchphrase}</p>
+        <p className="stats">
+          ⚔️ {bot.damage} | ❤️ {bot.health} | 🛡️ {bot.armor}
+        </p>
+        <small>{bot.bot_class}</small>
+    </div>
+      
+    <button
+        className="delete-btn"
+        onClick={(e) => {
+          e.stopPropagation();
+          onDelete(bot.id);
+        }}
+      >
+        🗑️
+      </button>
+
     </div>
   );
 }
